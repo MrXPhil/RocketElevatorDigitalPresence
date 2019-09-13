@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rocket Elevators - Quote Form</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Philippe Marquis [www.safedrup.com]" />
+		<link rel="icon" href="/assets/favicon.png" type="image/png"/>
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />-->
+		<!--<link href="https://fonts.googleapis.com/css?family=roboto:400" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=roboto:300" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=roboto&display=swap" rel="stylesheet">-->
+		
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+	
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet" type="text/css">	
+		
+		<style>
+		html, h1, h2, h3, h4, h5, h6, p, a, li, ul, span, text, span, button, input, button, select, textarea, div {font-family: "Oswald"!important;}		
+		.bgk_overview {background-image: url(images/bgk_overview.jpg)!important;}
+		.box_shadow {box-shadow: 0 2px 5px rgb(32, 32, 32);}
+		.box_shadow_input {box-shadow: 0 2px 5px rgb(32, 32, 32); height: 42px;}
+		.txt_shadow {text-shadow: 0 2px 5px rgb(32, 32, 32);}
+		#DIV_10 >input {box-shadow: 0 2px 5px rgb(32, 32, 32); height: 42px;}
+		select, option {padding: 0px 10px 0px 10px!important; width:220px!important; box-shadow: 0 2px 5px rgb(32, 32, 32);}
+		#dropmenu {padding: 0px 10px 0px 10px!important; width:220px!important; box-shadow: 0 2px 5px rgb(32, 32, 32);}
+		[id^=DIV_] {text-align: center;}
+		#returned_qty_Eleva {width: 50px;}
+		input{float: center; text-align: center; align-self: center;}
+		ul {list-style-type: none;}
+		section {padding-top: 50px!important; padding-bottom: 50px!important;}
+		.btn-primary {background-color: #6c757d!important; border:none!important;}
+		#header.fixed #topNav a.logo>img {height: 70px!important;}
+		#header.fixed #topNav a.logo {height: 50px!important; line-height: 10px!important;}
+		#topNav a.logo {overflow:visible!important; display: inline-block!important; z-index: 100!important;}
+		#header.fixed #topNav #topMain>li>a {height: 50px; line-height: 50px;}
+		#DIV_1, #DIV_2, #DIV_3, #DIV_4, #DIV_5, #DIV_6, #DIV_7, #DIV_8, #DIV_9, #DIV_10, #DIV_11, #DIV_12 {background-color:rgb(238, 238, 238); width: auto;
+		height: 50px; display: none; text-align: left; margin-top: 5px;}
+		#DIV_13, #DIV_14, #DIV_15, #DIV_16, #DIV_17, #DIV_18, #DIV_19 {background-color:rgb(238, 238, 238); width: auto; height: 50px; text-align: left; margin-top: 5px;}
+		#DIV_17, #DIV_18, #DIV_19 {padding-left: 190px; text-align: center!important; background-color:rgb(255, 255, 255); width: 500px; height: 50px; text-align: left; margin-top: 5px;}
+		input {float:right;}
+		#DIV_17 > input {float: none;}
+		#DIV_18 > input {float: none;}
+		#DIV_19 > input {float: none;}
+
+		</style>
+	</head>
+	
+<!--
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++
+========================================= HIDDEN MENU + TOP RIGHT CORNER ==========================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+	<body class="smoothscroll enable-animation" >
+
+		<!-- SLIDE TOP -->
+		<div id="slidetop">
+			<div class="container">				
+				<div class="row">
+					<div class="col-md-4">						
+						<h6><i class="icon-heart"></i>WHY ELEVATE WHIT ROCKET ELEVATOR?</h6>
+						<p>Rocket Elevator is the world's leading manufacturer of premium<br/>
+						   quality elevators. Custom design has become our greatest expertise and<br/>
+						   demonstrates our ability to meet the most complex and demanding needs.</p>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="fa-facheck"></i>RECENT PROJECT</h6>
+						<ul class="list-unstyled">
+								<li><a href="awards.html#Dainamic Builders"><i class="fa fa-angle-right"></i> Dainamic Builders</a></li>
+								<li><a href="awards.html#Luxor Company"><i class="fa fa-angle-right"></i> Luxor Company for in constructing</a></li>
+								<li><a href="awards.html#Ardent Builders"><i class="fa fa-angle-right"></i> Ardent Builders</a></li>
+								<li><a href="awards.html#Jackson Builders"><i class="fa fa-angle-right"></i> Jackson Builders</a></li>
+								<li><a href="#"><i class="fa fa-angle-right"></i> KEEP WATCHING US IN OUR FUTUR PROJECTS</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b>725 boulevard Lebourgneuf<br />QuébecQc, Canada</li>
+							<li><b>Phone:</b> 1-800-555-1234</li>
+							<li><b>Email:</b><a href="mailto:elevate@rocketelevators.com">elevate@rocketelevators.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+		</div>
+		<!-- /SLIDE TOP -->
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++
+=================================================== MENU BAR TOP HEADER  ==========================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+			<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo float-left" href="index.html">
+							<img src="images/R2.png" alt="" />
+						</a>
+						
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+						<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="index.html" title="Click to return on Hompage">
+											HOME
+										</a>
+									</li>
+									
+									<li><!-- SERVICES -->
+										<a href="index.html#services" title="Click to see our Services on Hompage">
+											SERVICES
+										</a>
+									</li>
+
+									<li><!-- WORK -->
+										<a href="index.html#work" title="Click to see our Portfolio on Hompage">
+											PORTFOLIO
+										</a>
+									</li>
+
+									<li><!-- NEWS -->
+										<a href="index.html#news" title="Click to see News on Hompage">
+											NEWS
+										</a>
+									</li>
+
+									<li><!-- OVERVIEW -->
+										<a href="index.html#overview" title="Click to see Overview on Hompage">
+											OVERVIEW
+										</a>
+									</li>
+
+									<li><!-- CLIENTS -->
+										<a href="index.html#clients" title="Click to see our Clients on Hompage">
+											CLIENTS
+										</a>
+									</li>
+									
+									<li><!-- CONTACT -->
+										<a href="index.html#contact" title="Click to reach section Contact on Hompage">
+											CONTACT
+										</a>
+									</li>
+
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</header>
+			</div>
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------FORM SECTION--------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<ul class="row">
+		<li class="col-md-4 col-sm-4 col-12"></li>
+			<li class="col-md-4 col-sm-4 col-12">
+			<div style="text-align: center">
+						<br /><br />
+						<div class="heading-title heading-dotted text-center txt_shadow" style="color:#ccc">
+						<h1>Rocket Elevators Quote Submission Form</h1>	</div></li>
+		<li class="col-md-4 col-sm-4 col-12"></li>
+</ul>						
+
+<!---------------------------------------------------------------------- START QUESTION ENTRY-------------------------------------------------------------->
+
+<!-- QUESTION FORM SELECT TYPE OF PROJECT -->
+
+<ul class="row">
+		<li class="col-md-4 col-sm-4 col-12"></li>
+			<li class="col-md-4 col-sm-4 col-12 text-center">
+						<h3>1 - Information about your project</h3>			 
+						
+						<select id="dropMenu" onchange="divStatus()">
+							<option> - Select one type</option><!-- DEFAULT VALUE -->
+							<option>-Residential Project</option>
+							<option>-Commercial Project</option>
+							<option>-Corporate Project</option>
+							<option>-Hybrid Project</option>
+						</select></li>
+						<li class="col-md-4 col-sm-4 col-12"></li></ul>		
+							
+						
+		<!--	<script>
+						function fonctionChoice_dropMenu() {
+							var x = document.getElementById("dropMenu");
+							var i = x.selectedIndex;						  
+							return i;
+						}
+			</script>-->
+<br /><br />
+<ul class="row">
+<li class="col-md-4 col-sm-4 col-12"></li>
+<li class="col-md-4 col-sm-4 col-12">
+<!-- QUESTION FORM #1 -->
+						<div id="DIV_1">
+						What is the number of appartement?					
+						 <input class="box_shadow_input" id="qty_Appart" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()">   
+						</div>
+					
+<!-- QUESTION FORM #2 -->						
+						<div id="DIV_2">
+						How many levels above-ground?										
+						 <input class="box_shadow_input" id="qty_Level" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()"> 
+						</div>
+						
+<!-- QUESTION FORM #3 -->						
+						<div id="DIV_3">
+						How many levels of basements?						
+						 <input class="box_shadow_input" id="qty_Base" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()">  
+						</div>
+
+<!-- QUESTION FORM #4 -->						
+						<div id="DIV_4">
+						How many different business are hosted in your bulding?					
+						 <input class="box_shadow_input" id="qty_Business" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()">    
+						</div>
+						
+<!-- QUESTION FORM #5 -->						
+						<div id="DIV_5">
+						Enter the number of parking available					
+						 <input class="box_shadow_input" id="qty_Parking" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()"> 
+						</div>
+						
+<!-- QUESTION FORM #6 -->						
+						<div id="DIV_6">
+						Enter the number of lift cages to deploy						
+						 <input class="box_shadow_input" id="qty_Eleva" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()">   
+						</div>
+						
+<!-- QUESTION FORM #7 -->						
+						<div id="DIV_7">
+						Enter the number of separate rental companies
+						 <input class="box_shadow_input" id="qty_loan" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()">   
+						</div>
+						
+<!-- QUESTION FORM #8 -->						
+						<div id="DIV_8">
+						Enter the number of occupants per floor					
+						 <input class="box_shadow_input" id="qty_Pop" type="number" oninput="Call()" onkeyup="Call()" onchange="Price()">   
+						</div>
+						
+<!-- QUESTION FORM #9 -->						
+						<div id="DIV_9">
+						Enter the number of hours of activity of the building					
+						 <input class="box_shadow_input" id="qty_Hours" type="number"oninput="Call()" onkeyup="Call()"onchange="Price()">   
+						</div>
+						
+<!-- RETURN QUANTITY OF ELEVATORS NEEDED RESIDENTIAL-->						
+						<div id="DIV_10">						
+						The quantity of elevators you need:
+						 <input class="box_shadow_input" id="returned_qty_Eleva" type="number" disabled="" onchange="Price()">   
+						</div>
+
+<!-- RETURN QUANTITY OF ELEVATORS NEEDED COMMERCIAL-->						
+						<div id="DIV_11">						
+						The quantity of elevators you need: 
+						<input class="box_shadow_input" id="returned_qty_ElevaB" type="number" disabled="" onchange="Price()">   
+						</div>
+						
+ <!--RETURN QUANTITY OF ELEVATORS NEEDED COMMERCIAL-->					
+						<div id="DIV_12">						
+						The quantity of elevators you need: 
+	 					<input class="box_shadow_input" id="hybrid" type="number" disabled="" onchange="Price()">   
+						</div>
+</li>	
+<li class="col-md-4 col-sm-4 col-12"></li>
+</ul>						
+
+<!-- QUESTION FORM SELECT LEVEL OF QUALITY -->							
+						<br />
+
+			<ul class="row">
+				<li class="col-md-4 col-sm-4 col-12"></li>
+					<li class="col-md-4 col-sm-4 col-12 text-center">
+						<h3>2 - Select the level of quality</h3>
+						<div id="DIV_17"><input id="PriceUnitStandard" type="radio" name="services" value="standard" onchange="Price()"> Standard</div>
+						 					  						  
+						<div id="DIV_18"><input id="PriceUnitPremium" type="radio" name="services" value="premium" onchange="Price()"> Premium</div>
+												  
+						<div id="DIV_19"><input id="PriceUnitExcelium" type="radio" name="services" value="other" onchange="Price()"> Excelium</div>
+					</li>
+				<li class="col-md-4 col-sm-4 col-12 text-left"></li>
+			</ul>
+					  
+<!-- END QUESTION ENTRY--------------------------------------------------------------------------------------------------------------------------------------->	
+
+			<script> 								
+						function Call()  {
+						type_Selected();							  
+						}
+			</script>
+						
+<!--DROP MENU RETURN FUNCTION BASED ON VALUE SELECTED-->						
+			<script>			
+						function type_Selected()  {							
+						   var service =  fonctionChoice_dropMenu(); 					   
+						   
+						   if ( service == 1 )   {
+							returnQuantity_residential(); 
+						   }
+						   
+						   if ( service == 2 )   {
+							returnQuantity_commercial();						
+						   }
+						   
+						   if ( service == 3 )   {
+							  Resultqty_Elevators_quote(); 
+						   }
+						   
+						   if ( service == 4 )   {
+							  Resultqty_Elevators_quote(); 
+						   }					   
+						}
+			
+			</script>	
+				
+<!-- START PRICE RETURN INFORMATION------------------------------------------------------------------------------------------------------------------------------
+	<ul class="row">
+			<li class="col-md-4 col-sm-4 col-12"></li>
+				<li class="col-md-4 col-sm-4 col-12">
+						<br />Unit Price $: <input id="PriceUnit" type="text" disabled="" class="box_shadow_input"><br />
+						<br />Price for elevator $: <input id="PriceUnitX" type="text" disabled="" class="box_shadow_input"><br />
+						<br />Installation costs $: <input id="InstallationCost" type="text" disabled="" class="box_shadow_input"><br />
+					    <br />Total project cost $: <input id="Total" type="text" disabled="" class="box_shadow_input"><br />
+			</li>
+	</ul>-->
+
+	<ul class="row">
+			<li class="col-md-4 col-sm-4 col-12"></li>
+				<li class="col-md-4 col-sm-4 col-12 text-center">
+						<h3>Detail of the quote</h3>
+						<div id="DIV_13">Elevator Unit Price: <input id="PriceUnit" type="text" disabled="" class="box_shadow_input"></div>
+						<div id="DIV_14">Elevator price based on quantity: <input id="PriceUnitX" type="text" disabled="" class="box_shadow_input"></div>
+						<div id="DIV_15">Installation costs : <input id="InstallationCost" type="text" disabled="" class="box_shadow_input"></div>
+						<div id="DIV_16">Total project cost: <input id="Total" type="text" disabled="" class="box_shadow_input"></div>
+				</li>
+			<li class="col-md-4 col-sm-4 col-12"></li>
+	</ul>
+
+	
+<!----------------------------------------------------------------------------------------------------------------------------------------------->	
+<!----------------------------------------------------------------END OF FORM-------------------------------------------------------------------->	
+<!----------------------------------------------------------------------------------------------------------------------------------------------->							
+<!----------------------------------------------------------------------------------------------------------------------------------------------->	
+
+
+								<!-- SCROLL TO TOP -->
+								<a href="https://rocketelevatorslp.com/SubmissionForm.html#" id="toTop"></a>
+														
+								<!-- JAVASCRIPT FILES -->
+								<script>var plugin_path = 'assets/plugins/';</script>
+								<script src="./Submission Form_files/jquery-3.3.1.min.js.téléchargement"></script>
+						
+								<script src="./Submission Form_files/scripts.js.téléchargement"></script>
+								
+								<!-- STYLESWITCHER - REMOVE -->
+								<script async="" src="./Submission Form_files/styleswitcher.js.téléchargement"></script>
+						
+								<!-- REVOLUTION SLIDER -->
+								<script src="./Submission Form_files/jquery.themepunch.tools.min.js.téléchargement"></script>
+								<script src="./Submission Form_files/jquery.themepunch.revolution.min.js.téléchargement"></script>
+								<script src="./Submission Form_files/demo.revolution_slider.js.téléchargement"></script>
+						
+								<!-- PAGELEVEL SCRIPTS -->
+								<script src="./Submission Form_files/contact.js.téléchargement"></script>
+
+								<!-- form script -->
+								<script src="assets/js/form.js"></script>
+						
+								<!-- GMAP.JS http://hpneo.github.io/gmaps/ -->
+								<script src="./Submission Form_files/js"></script>
+								<script src="./Submission Form_files/gmaps.js.téléchargement"></script>								
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<!-- col #1 -->
+							<div class="col-md-8">
+								<h3 class="letter-spacing-1">Our commitment</h3>
+								<!-- Small Description -->
+								<p style="font-size: 1.3em">
+										We are committed to providing the best possible support in all your construction projects <br />
+										involving elevators. Whether for a new construction, or an installation in an existing building,<br />
+										we will be able to assist you throughout the entire project by entrusting you to our experienced <br />
+										team, which has several years of experience and a ton of projects successfully delivered.
+								</p>
+								<h2>(800) 555-1234</h2>
+							</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+							<div class="col-md-4">
+								<h3 class="letter-spacing-1">KEEP IN TOUCH</h3>
+
+								<!-- Newsletter Form -->
+								<p>Subscribe to Our Newsletter to get Important News & Offers</p>
+
+								<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+										<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+										<span class="input-group-btn">
+											<button class="btn btn-secondary" type="submit">Subscribe</button>
+										</span>
+									</div>
+								</form>
+								<!-- /Newsletter Form -->
+							</div>
+						<!-- /col #2 -->
+					</div>
+
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="float-right m-0 list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; 2019 | All Rights Reserved, Rocket Elevators LTD
+					</div>
+				</div>
+
+			</footer>
+			<!-- /FOOTER -->
+		</div>
+		<!-- /wrapper -->
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+		<!-- STYLESWITCHER - REMOVE -->
+		<!--<script async src="demo_files/styleswitcher/styleswitcher.js"></script>-->
+
+		<!-- REVOLUTION SLIDER -->
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="assets/js/view/demo.revolution_slider.js"></script>
+
+		<!-- PAGELEVEL SCRIPTS -->
+		<script src="assets/js/contact.js"></script>
+
+		
+	</body>
+</html>
